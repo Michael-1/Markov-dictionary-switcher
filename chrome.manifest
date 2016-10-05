@@ -1,0 +1,5 @@
+content	markoswitch	chrome/content/
+skin	markoswitch	classic/1.0	chrome/skin/
+
+overlay	chrome://messenger/content/messengercompose/messengercompose.xul	chrome://markoswitch/content/switch.xul
+style	chrome://messenger/content/messengercompose/messengercompose.xul	chrome://markoswitch/skin/style.css

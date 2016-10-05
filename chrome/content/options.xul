@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<!-- 
+Copyright (C)2010 Freek Zindel
+For license information please refer to the LICENSE.TXT file included in this distribution -->
+<dialog buttons="accept, cancel" id="markoswitch_prefs" title="Markov Dictionary Switcher Options" ondialogaccept="markoswitchOptions.save()" onload="markoswitchOptions.init()" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<script type="application/x-javascript" src="chrome://markoswitch/content/options.js"/>
+ <groupbox>
+   <caption label="Autodetect"/>
+   <description>Autodetect and set spelling language while typing.</description>
+   <checkbox id="autodetect" label="autodetect language"/>
+ </groupbox>
+ <groupbox>
+   <caption label="Dictionaries"/>
+ <grid flex="1">
+  <rows>
+    <row>
+       <description>Dictionaries that you want to switch between</description>
+    </row>
+    <row>
+    <vbox id="dictlist">
+    </vbox>
+    </row>
+  </rows>
+</grid>
+ </groupbox>
+</dialog>

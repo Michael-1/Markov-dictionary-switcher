@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+        <script type="application/javascript" src="markov.js"/>
+	<script type="application/javascript" src="switch.js"/>
+
+	<statusbar id="status-bar">
+		<statusbarpanel id="dictionary-switcher"
+			onclick="if (event.button == 0) dictionarySwitcher.toggle()"
+			context="dictionary-switcher-menu"
+		/>
+		<popup id="dictionary-switcher-menu"/>
+	</statusbar>
+</overlay>

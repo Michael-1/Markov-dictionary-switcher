@@ -1,0 +1,8 @@
+Copyright (C)2010 Freek Zindel and Dao Gottwald
+
+25-10-2010. Markoswitch is based on version 1.1.5 of Dictionary Switcher by Dao Gottwald.However it uses another method to determine the language of a text
+and it provides a properties dialog to select languages that you want
+to switch between.
+
+This work is released under the Mozilla Public License, version 1.1
+

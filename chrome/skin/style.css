@@ -1,0 +1,10 @@
+@import url("chrome://global/skin/");
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#dictionary-switcher ,
+#dictionary-switcher > label {
+	cursor: pointer;
+}
+#dictionary-switcher:hover > label {
+	text-decoration: underline;
+}
