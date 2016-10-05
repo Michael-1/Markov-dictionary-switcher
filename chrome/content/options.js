@@ -21,7 +21,7 @@ markoswitchOptions = {
     engine = engine.createInstance(Ci.mozISpellCheckingEngine);
     engine.getDictionaryList(dlist, {});
     this.prefs = Components.classes["@mozilla.org/preferences-service;1"]
-      .getService(Components.interfaces.nsIPrefService);
+      .getService(Components.interfaces.nsIPrefBranch);
 
     //the dictionary switcher that this plugin was based on uses this preference.
     this.auto.checked = this.prefs.getBoolPref('extensions.dictionary-switcher.autodetect');
